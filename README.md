@@ -75,7 +75,7 @@
   ### Categories
   * /api/categories
     1. Supports GET call to recieve all categories.
-    2. Supports POST call o create a new category. Requires request body to contain json object with following format:
+    2. Supports POST call to create a new category. Requires request body to contain json object with following format:
     ```
     {
 	    "category_name":"post example"
