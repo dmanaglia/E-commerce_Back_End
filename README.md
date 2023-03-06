@@ -108,11 +108,11 @@
     2. Supports PUT call to update any information of a specific product. Requires request body to contain json object containing any information you want to update (Can be a single key value pair if that's all you wish to update):
     ```
      {
-      "product_name": "Plain Whtie T-Shirt",
-      "price": 15,
+      "product_name": "Blue Keyboard",
+      "price": 150,
       "stock": 15,
-      "category_id": 1,
-      "tagIds": [6]
+      "category_id": 6,
+      "tagIds": [9, 3]
     }
     ```
     3. Supports DELETE call to permanently delete a product (No request needed beyond the id number parameter).
