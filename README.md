@@ -111,7 +111,7 @@
       "product_name": "Blue Keyboard",
       "price": 150,
       "stock": 15,
-      "category_id": 6,
+      "category_id": 7,
       "tagIds": [9, 3]
     }
     ```
