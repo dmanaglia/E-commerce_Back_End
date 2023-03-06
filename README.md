@@ -96,19 +96,23 @@
     2. Supports POST call to create a new product. Requires request body to contain json object with following format:
     ```
     {
-        "product_name": "Keyboard",
-		"price": 200.00,
-		"stock": 3,
-		"category_id": 6,
-		"tagIds": [9]
+      "product_name": "Keyboard",
+      "price": 200.00,
+      "stock": 3,
+      "category_id": 6,
+      "tagIds": [9]
     }
     ```
   * /api/products/:id
     1. Supports GET call to recieve a single product (No request needed beyond the id number parameter).
-    2. Supports PUT call to update a product's tags. Requires request body to contain json object with following format:
+    2. Supports PUT call to update any information of a specific product. Requires request body to contain json object containing any information you want to update (Can be a single key value pair if that's all you wish to update):
     ```
-    {
-	    "tagIds": [1, 2, 3]
+     {
+      "product_name": "Plain Whtie T-Shirt",
+      "price": 15,
+      "stock": 15,
+      "category_id": 1,
+      "tagIds": [6]
     }
     ```
     3. Supports DELETE call to permanently delete a product (No request needed beyond the id number parameter).
